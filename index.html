@@ -1,0 +1,280 @@
+<!doctype html>
+<html>
+<head>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<meta charset="utf-8">
+<title>La Contaminación en mi Comunida</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema1.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+
+<!--grupo javascript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<!-- <script src="js/acciones.js"></script>-->
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/def1.jpg','imagenes/conse1.jpg')">
+
+ <div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-add-back-text="Regresar" data-add-back-theme="a">
+   <h1>La Contaminación en mi Comunidad</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+  <h1> Contaminacion ambiental en mi comunidad </h1>
+  <div>
+  <p>Esto es un ejemplo</p>
+  <br>
+  </div>
+  <div>
+   <img src="imagenes/ban.jpg" width="60%" height="60%">
+     </div>
+    </div>
+   </div>
+   <div>
+   <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Definicion</h2>
+    <p> ¿Que es la contaminacion?</p>
+    </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2> Tipos de contaminacion </h2>
+     <p>Se muestran los tipos de contaminacion que existen</p>
+     </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Consecuencias</h2>
+     <p>Demostracion de las consecuencias con enfoque en el calentamiento global</p>
+     </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Reciclaje</h2>
+     <p>¿Que es y como se clasifica el reciclaje?</p>
+     </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Medidas para combatirla </h2>
+     <p>5 medidas para combatir la contaminacion en mi comunidad</p>
+     </a>
+    </li>
+     <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+  <h1> Mas informacion </h1>
+  <div>
+  <br>
+  </div>
+  <div>
+   <img src="imagenes/ban2.jpg" width="50%" height="30%">
+   <br>
+   <a href="https://contaminacionambiental.net/contaminacion-ambiental/" target="_self"> MAS INFORMACION</a>
+   <br>
+   <a href="http://www.who.int/phe/health_topics/outdoorair/databases/background_information/es/" target="_self"> MAS INFORMACION 2</a>
+     </div>
+    </div>
+	 </div>
+   </ul>
+   </div>
+   
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+ <div>
+   <img src="imagenes/bicycle-icon.png" width="46" height="46">
+  </div>
+ <div>
+ <h4> Aplicacion cuatro</h4>
+ <h4> Luis Eduardo Peralta Flores </h4>
+ </div>
+	   </div>
+	</div>
+	
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>Definicion</h1>
+  </div>
+<div data-role="content" align="center">
+  <div>
+   <h2> ¿Qué es la Contaminación?: 
+
+ La contaminación es la presencia o acumulación de sustancias en el medio ambiente que afectan negativamente el entorno y las condiciones de vida, así como la salud o la higiene de los seres vivos. Con este significado también se suele utilizar el concepto de contaminación ambiental.
+ Como contaminación también se denomina una alteración en una sustancia o un producto, como un alimento o una muestra.</h2>
+  <div data-role="content" align="center">
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','imagenes/def1.jpg',1)"><img src="imagenes/def.jpg" width="50%" height="50%" id="Image12"></a>
+    <br>
+    <a href="https://www.significados.com/contaminacion/" target="_self">Leer articulo completo </a></div>
+	</div>
+  
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+   <img src="imagenes/bicycle-icon.png" width="46" height="46">
+   
+  </div>
+ <h4> Aplicacion cuatro, LEPF</h4>
+ </div>
+ </div>
+ </div>
+ 
+ 
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>Tipos de contaminacion</h1>
+     </div>
+    <div data-role="content" align="center">
+    <div>
+     <h2> Contaminación del aire o atmosférica, Contaminación del agua, Contaminación del suelo, Contaminación de la flora y fauna, Contaminación acústica o sonora, Contaminación radiactiva o nuclear, Contaminación química, Contaminación genética, Contaminación electromagnética, Contaminación biológica, Contaminación difusa, Contaminación de fuente puntual, Contaminación lumínica, Contaminación visual, Contaminación térmica, etc.
+</h2>
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/tipo2.jpg" alt="tipo2" title="tipo2" id="wows1_0"/></li>
+		<li><img src="data1/images/tipo.jpg" alt="tipo" title="tipo" id="wows1_1"/></li>
+		<li><img src="data1/images/tipo3.jpg" alt="tipo3" title="tipo3" id="wows1_2"/></li>
+		<li><img src="data1/images/coma3.jpg" alt="coma3" title="coma3" id="wows1_3"/></li>
+		<li><img src="data1/images/coma4.jpg" alt="coma4" title="coma4" id="wows1_4"/></li>
+		<li><img src="data1/images/coma5.jpg" alt="coma5" title="coma5" id="wows1_5"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/def.jpg" alt="slider html" title="def" id="wows1_6"/></a></li>
+		<li><img src="data1/images/medi1.jpg" alt="medi1" title="medi1" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="tipo2"><span><img src="data1/tooltips/tipo2.jpg" alt="tipo2"/>1</span></a>
+		<a href="#" title="tipo"><span><img src="data1/tooltips/tipo.jpg" alt="tipo"/>2</span></a>
+		<a href="#" title="tipo3"><span><img src="data1/tooltips/tipo3.jpg" alt="tipo3"/>3</span></a>
+		<a href="#" title="coma3"><span><img src="data1/tooltips/coma3.jpg" alt="coma3"/>4</span></a>
+		<a href="#" title="coma4"><span><img src="data1/tooltips/coma4.jpg" alt="coma4"/>5</span></a>
+		<a href="#" title="coma5"><span><img src="data1/tooltips/coma5.jpg" alt="coma5"/>6</span></a>
+		<a href="#" title="def"><span><img src="data1/tooltips/def.jpg" alt="def"/>7</span></a>
+		<a href="#" title="medi1"><span><img src="data1/tooltips/medi1.jpg" alt="medi1"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">html slider</a> by WOWSlider.com v8.8</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+</div>
+  </div>
+
+    
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+ <div>
+ <img src="imagenes/bicycle-icon.png" width="46" height="46">
+ </div>
+  <h4> Aplicacion cuatro, LEPF</h4>
+  </div>
+  </div>
+  
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>Consecuencias</h1>
+     </div>
+    <div data-role="content" align="center">
+    <div>
+     <h2>Las consecuencias de la contaminación ambiental afectan gravemente la salud humana, la salud animal, los bosques y vegetación, y el ambiente en general. Los efectos de la contaminación en organismos vivientes pueden incluir desde malestares menores hasta enfermedades más serias, como cáncer o deformidades físicas. La contaminación ocurre cuando los contaminantes afectan los ambientes naturales, lo que genera cambios que inciden de manera negativa en los estilos de vida. La contaminación perturba al ecosistema y al balance del ambiente.
+ </h2>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','imagenes/conse1.jpg',1)"><img src="imagenes/conse.jpg" width="50%" height="50%" id="Image13"></a>
+     <br>
+     <a href="
+https://www.lifeder.com/consecuencias-contaminacion-ambiental/" target="_self">Leer articulo completo</a> </div>
+  </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+ <div>
+ <img src="imagenes/bicycle-icon.png" width="46" height="46">
+ </div>
+  <h4> Aplicacion cuatro, LEPF</h4>
+  </div>
+  </div>
+  
+  
+  <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1></h1>
+     </div>
+    <div data-role="content" align="center">
+    <div>
+     <h2>Reciclaje</h2>
+     <img src="imagenes/reci1.jpg" width="50%" height="50%">
+     <br>
+     <p>El reciclaje es un proceso cuyo objetivo es convertir desechos en nuevos productos o en materia para su posterior utilización. 
+El reciclaje es un componente clave en la reducción de desechos contemporáneos y es el segundo componente de las 3R («Reducir, Reciclar y Reutilizar»).
+También es posible realizar un salvamento de componentes de ciertos productos complejos, ya sea por su valor intrínseco o por su naturaleza peligrosa.</p>
+<br>
+     <img src="imagenes/reci.jpg" width="50%" height="50%">
+     </div>
+  </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+ <div>
+ <img src="imagenes/bicycle-icon.png" width="46" height="46">
+ </div>
+  <h4> Aplicacion cuatro, LEPF</h4>
+  </div>
+  </div>
+  
+  
+    <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>Mediada para combatir la contaminacion</h1>
+     </div>
+    <div data-role="content" align="center">
+    <div>
+     
+     <h2>5 medidas para combatir la contaminacion </h2>
+    <div>
+    <ul>
+    <li> Evitar usar el automovil cuando vayan a lugares cercanos.</li>
+		<img src="imagenes/coma3.jpg" width="50%" height="50%">
+    <li> No quemar la basura, mejor reciclarla. </li>
+       <img src="imagenes/Com.jpg" width="50%" height="50%">
+    <li> No tirar la basura en la calle.</li>
+      <img src="imagenes/coma5.jpg" width="50%" height="50%">
+    <li> Consientizar a los habitantes de la comunidad</li>
+       <img src="imagenes/coma1.jpg" width="50%" height="50%">
+    <li> No tirar desechos en aguas limpias.</li>
+    <img src="imagenes/coma6.jpg" width="50%" height="50%">
+    </ul>
+    </div>
+
+     </div>
+  </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+ <div>
+ <img src="imagenes/bicycle-icon.png" width="46" height="46">
+ </div>
+  <h4> Aplicacion cuatro, LEPF</h4>
+  </div>
+ </div>
+</body>
+</html>
